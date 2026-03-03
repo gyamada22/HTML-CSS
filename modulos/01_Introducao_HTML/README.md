@@ -5,7 +5,7 @@
 * **Aulas:** 26/26  
 * **Duração Total:** 3h34min  
 * **Progresso:** 100%  
-
+* **Concluído em:** 02/03/2026  
 ---
 
 ## 🎯 Objetivo
