@@ -1,0 +1,99 @@
+<!-- 
+Vamos construir uma página que anuncia uma Smart TV.
+
+O título desse página deve ser "Anúncio Smart TV".
+
+A imagem a ser usada está nos downloads da aula e ela deve ter 400px de largura com a legenda "Smart TV da marca XYZ" e com o texto alternativo "Smart TV".
+
+O título principal deve ser "Smart TV 75" da marca XYZ".
+
+Precisamos de um link com o texto "Quero comprar agora mesmo!" que não leva para lugar nenhum.
+
+A próxima seção da página é a seção de preço. O título deve ser "Preço" e os textos da seção "R$ 4.999 ou 12xR$ 416,58" e "Desconto de 10% no PIX", sendo que queremos dar importância ao texto "R$ 4.999" e apenas deixar em negrito o texto "Desconto de 10%".
+
+Queremos criar uma separação horizontal entre a seção de preço e a de condições.
+
+Na seção de condições, o título será "Condições" e teremos os textos "Parcelamento sem juros" e "Frete grátis", sendo que o "sem juros" deverá estar em itálico e o "Frete grátis" deverá receber uma ênfase.
+
+Queremos criar uma separação horizontal entre a seção de condições e a de características.
+
+O título da seção características é "Características" e nela teremos três sub-seções, são elas: "Inteligência Artificial & Smart", "Imagem" e "Conexões".
+Em cada seção vamos colocar uma lista não ordenada com 4 itens em cada uma delas. Os itens das listas são esses (4 itens para cada sub-seção):
+
+Alexa
+Google Assistente
+Game Optimizer
+Configuração da família
+
+4K UHD
+Processador XYZ
+HDR
+HDMI 2.0
+
+3 Entradas HDMI 2.0
+2 Entradas USB
+1 Bluetooth In/Out
+1 Saída digital óptica
+-->
+
+<!-- Codigo Final - Resposta -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anúncio Smart TV</title>
+  </head>
+  <body>
+    <figure>
+      <img src="imagem-smart-tv.png" alt="Smart TV" width="400px" height="" />
+
+      <figcaption>Smart TV da marca XYZ</figcaption>
+    </figure>
+
+    <h1>Smart TV 75" da marca XYZ</h1>
+    <p>
+      <a href="https://www.comprartv.com/" target="_blank"
+        >Quero comprar agora mesmo!</a
+      >
+    </p>
+
+    <h2>Preço</h2>
+    <p><b>R$ 4.999</b> ou 12x R$ 416,58</p>
+    <p><b>Desconto de 10%</b> no PIX</p>
+
+    <hr />
+
+    <h2>Condições</h2>
+    <p>Parcelamento <i>sem juros</i></p>
+    <p><i>Frete grátis</i></p>
+
+    <hr />
+
+    <h2>Características</h2>
+    <h3>Inteligência Artificial & Smart</h3>
+    <ul>
+      <li>Alexa</li>
+      <li>Google Assistente</li>
+      <li>Game Optimizer</li>
+      <li>Configuração da família</li>
+    </ul>
+
+    <h3>Imagem</h3>
+    <ul>
+      <li>4K UHD</li>
+      <li>Processador XYZ</li>
+      <li>HDR</li>
+      <li>HDMI 2.0</li>
+    </ul>
+
+    <h3>Conexões</h3>
+    <ul>
+      <li>3 Entradas HDMI 2.0</li>
+      <li>2 Entradas USB</li>
+      <li>1 Bluetooth In/Out</li>
+      <li>1 Saída digital óptica</li>
+    </ul>
+  </body>
+</html>
