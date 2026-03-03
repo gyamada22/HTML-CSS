@@ -5,7 +5,6 @@ Repositório dedicado ao meu aprendizado prático em **HTML e CSS**, com foco na
 💡 Os estudos envolvem fundamentos estruturais do HTML, estilização com CSS, layouts avançados (Flexbox e Grid), metodologias como BEM, pré-processadores como SASS e frameworks como Bootstrap e Tailwind.
 
 ---
-
 📊 **Progresso Geral**  
 ▰▱▱▱▱▱▱▱▱▱ **~6% concluído** 🚧  
 
@@ -31,7 +30,7 @@ Repositório dedicado ao meu aprendizado prático em **HTML e CSS**, com foco na
 | 14. Projeto E-commerce (SASS) | 0/48 | 17h55min | ⬜ Não iniciado |
 | 15. Framework - Bootstrap | 0/8 | 1h10min | ⬜ Não iniciado |
 | 16. Projeto Landing Page (Bootstrap) | 0/10 | 2h02min | ⬜ Não iniciado |
-| 17. CSS Avançado e Recursos Experimentais | 0/33 | — | ⬜ Não iniciado |
+| 17. CSS Avançado e Recursos Experimentais | 0/33 | 5h25min | ⬜ Não iniciado |
 | 18. Framework - Tailwind CSS | 0/8 | 1h33min | ⬜ Não iniciado |
 | 19. Projeto Página Minimalista (Tailwind) | 0/26 | 6h44min | ⬜ Não iniciado |
 
@@ -40,13 +39,9 @@ Repositório dedicado ao meu aprendizado prático em **HTML e CSS**, com foco na
 ## 📊 Resumo Geral
 
 **Total de Aulas:** 414  
-**Total de Carga Horária:** ~78h  
+**Total de Carga Horária:** ~83h25min  
 
 **Aulas Concluídas:** 26 / 414  
-**Carga Horária Concluída:** 3h34min / ~78h  
+**Carga Horária Concluída:** 3h34min / 83h25min  
 
-**Progresso Atual:** ~6% do curso concluído 
-
----
-
-🚀 Próximo passo: **Introdução ao CSS**
+**Progresso Atual:** ~6% do curso concluído  
