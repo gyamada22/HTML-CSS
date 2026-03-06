@@ -1,0 +1,195 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.cabecalho a {
+  color: #112e61;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.heroh1 {
+  color: #404040;
+  font-size: 33.2px;
+  font-weight: 600;
+}
+
+.herop {
+  font-size: 19.2px;
+  color: #404040;
+  font-weight: 400;
+}
+
+.botao-hero {
+  font-size: 24px;
+  color: #404040;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.h2x {
+  color: #404040;
+  font-size: 27.6px;
+  font-weight: 400;
+}
+
+.h2xx {
+  color: #7a40be;
+  font-weight: 600;
+}
+
+.h2w {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.h2b a {
+  color: #404040;
+  font-size: 19.2px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/*<!-- Seçao diferenciais -- >*/
+.diferenciais {
+  font-weight: 400;
+  font-size: 27.6px;
+}
+.diferenciais-span {
+  font-weight: 600;
+}
+
+.dif1 {
+  font-weight: 400;
+  font-size: 19.2;
+}
+
+.dif-title {
+  font-size: 23px;
+  font-weight: 600;
+  color: #005e88;
+}
+
+.dif-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.empresas-bold {
+  font-weight: 700;
+  color: #005e88;
+  font-size: 23px;
+}
+
+.empresas-normal {
+  font-weight: 400;
+  font-size: 23px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/*<!-- Seçao oq falam -- >*/
+.oq-falam {
+  font-size: 27.6px;
+  font-weight: 400;
+}
+
+.oq-falam-bold {
+  font-size: 27.6px;
+  font-weight: 600;
+}
+
+.oq-falam-botao {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.midia {
+  font-size: 27.6px;
+  font-weight: 400;
+}
+
+.blog-mini {
+  font-size: 13.3px;
+  font-weight: 400;
+}
+.blog-mini-link {
+  color: #f7a70c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-title {
+  font-size: 19.2px;
+  font-weight: 600;
+}
+
+.blog-descricao {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ajudar {
+  font-size: 27.6px;
+  font-weight: 400;
+}
+.ajudar-bold {
+  font-size: 27.6px;
+  font-weight: 600;
+}
+
+.ajudar-lista {
+  font-size: 19.2px;
+  font-weight: 400;
+}
+.ajudar-lista a {
+  font-size: 19.2px;
+  font-weight: 600;
+  color: #008ff7;
+}
+
+.textim {
+  font-size: 19.2px;
+}
+.textim-link {
+  font-size: 19.2px;
+  font-weight: 600;
+  color: #008ff7;
+}
+.cadastro {
+  font-size: 27.6px;
+  font-weight: 400;
+}
+.cadastro-bold {
+  font-size: 27.6px;
+  font-weight: 600;
+}
+
+.nome {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cadastro-botao {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.fale-conosco {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.cursos-online {
+  font-size: 19.2px;
+  font-weight: 600;
+}
+
+.links-uteis {
+  font-size: 16px;
+  color: #1a77a4;
+}
