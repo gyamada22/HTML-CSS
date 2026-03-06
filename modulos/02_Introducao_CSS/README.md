@@ -3,6 +3,7 @@
 * **Aulas:** 23/23
 * **Duração Total:** 3h01min
 * **Progresso:** 100%
+* **Concluído em:** 05/03/2026  
 ---
 ## 🎯 Objetivo
 Compreender o funcionamento do **CSS**, aprender as formas de aplicar estilos, utilizar **seletores**, estilizar textos, cores e hiperlinks, e aplicar tudo isso na construção de páginas completas com visual profissional.
