@@ -1,8 +1,8 @@
 # 📄 Módulo 5 — Aprofundando no HTML
 ## ⏳ Status: EM ANDAMENTO
-* **Aulas:** 15/25
+* **Aulas:** 25/25
 * **Duração Total:** 2h57min
-* **Progresso:** 60%
+* **Progresso:** 100%
 
 ---
 
