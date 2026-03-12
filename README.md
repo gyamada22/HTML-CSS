@@ -15,9 +15,9 @@ Repositório dedicado ao meu aprendizado prático em **HTML e CSS**, com foco na
 | Módulo | Aulas | Duração | Status |
 |--------|-------|---------|--------|
 | 1. Introdução ao HTML | 26/26 | 3h34min | ✅ Concluído |
-| 2. Introdução ao CSS | 23/23 | 3h10min | ✅ Não iniciado |
-| 3. Aprofundando no HTML | 0/25 | 2h57min | ⬜ Não iniciado |
-| 4. Aprofundando no CSS | 0/48 | 8h04min | ⬜ Não iniciado |
+| 2. Introdução ao CSS | 23/23 | 3h10min | ✅ Concluído |
+| 3. Aprofundando no HTML | 25/25 | 2h57min | ✅ Concluído |
+| 4. Aprofundando no CSS | 48/48 | 8h04min | ✅ Concluído |
 | 5. Flexbox no CSS | 0/20 | 4h42min | ⬜ Não iniciado |
 | 6. Componentes Personalizados no HTML | 0/13 | 3h27min | ⬜ Não iniciado |
 | 7. Grid no CSS | 0/17 | 2h09min | ⬜ Não iniciado |
