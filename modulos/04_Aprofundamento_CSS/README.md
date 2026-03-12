@@ -5,7 +5,7 @@
 * **Progresso:** 100%
 ---
 ## 🎯 Objetivo
-Aprofundar o conhecimento em **CSS**, explorando especificidade, espaçamentos, unidades, pseudo-classes, pseudo-elementos, Box Model, posicionamento, backgrounds e novos recursos modernos, aplicando tudo na estilização de páginas completas.
+- Aprofundar o conhecimento em **CSS**, explorando especificidade, espaçamentos, unidades, pseudo-classes, pseudo-elementos, Box Model, posicionamento, backgrounds e novos recursos modernos, aplicando tudo na estilização de páginas completas.
 ---
 ## 📌 Conteúdos Abordados
 ### 🎯 Especificidade e Herança
