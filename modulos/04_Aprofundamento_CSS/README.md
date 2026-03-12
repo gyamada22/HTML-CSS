@@ -1,4 +1,4 @@
-# 📄 Módulo 6 — Aprofundando no CSS
+# 📄 Módulo 4 — Aprofundando no CSS
 ## ✅ Status: CONCLUÍDO
 * **Aulas:** 48/48
 * **Duração Total:** 8h32min
