@@ -1,0 +1,99 @@
+<!-- Desafio1
+1. Na parte de HTML, divida o arquivo nas seções que aprendemos na parte de estrutura dos documentos. Vai uma dica: teremos uma grande seção na página e três seções menores. Se você julgar necessário, pode adicionar classes nos elementos.
+
+2. Nosso arquivo em CSS deverá iniciar com o seletor universal zerando o espaçamento interno, o espaçamento externo e ajustando o Box Model. Depois disso, use o conceito de herança de estilos para definir a fonte como Montserrat, o tamanho da fonte em 18px e a altura da linha em 1.4.
+
+3. Vamos alterar o font size da raiz do site (root) para 10px ou o equivalente em %. Depois dessa alteração, vamos mudar TODAS as unidades do documento para rem.
+
+4. Use um espaçamento interno de 24px nas três seções menores do site.
+
+5. Adicione um espaçamento externo inferior seguindo a tabela abaixo:
+
+h1, figure  - 32px
+h2, a, ul - 24px
+h3 - 18px
+p, li - 6px
+
+OBS: se atente para o espaçamento externo inferior da âncora. Tente resolver o problema.
+
+6. A legenda da figura da página deverá ter um espaçamento externo da esquerda de 32px. A lista não ordenada deverá ter um espaçamento externo da esquerda de 24px.
+
+7. Os hrs da página não deverão aparecer na tela do navegador. Faça isso apenas com CSS.
+
+8. A primeira letra do título h1 deverá ter 64px de tamanho da fonte. Faça isso usando apenas o CSS.
+
+9. Lembre de usar aquela sigla de Pseudo Classes no único link da página. Quando alguém passar o mouse por cima do link, ele deverá ficar na cor #0588c4;
+
+10. Agrupe os itens da seção de condições em um bloco. O bloco deverá ocupar apenas o tamanho do seu conteúdo. Esse bloco deverá ter #035276 como cor de fundo e #fff como cor da fonte. A sombra deverá ser preta com 15% de transparência, raio de desfoque de 16px e raio de propagação de 4px, sem nenhum deslocamento vertical ou horizontal. O espaçamento interno vertical deverá ser de 24px e o horizontal de 32px. O arredondamento da borda deverá ser de 20px.
+
+11. Tanto o realce itálico quanto o realce de underline, se estiverem dentro do bloco de condições, deverão estar na cor #78d4ff. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anúncio Smart TV</title>
+
+    <link rel="stylesheet" href="desafio-1-aula.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <figure>
+          <img
+            src="../Do zero/imagem-smart-tv.png"
+            alt="Smart TV"
+            width="400px"
+          />
+          <figcaption>Smart TV da marca XYZ</figcaption>
+        </figure>
+        <h1>Smart TV <span class="realce-h1">75"</span> da marca XYZ</h1>
+        <a href="#">Quero comprar agora mesmo!</a>
+      </section>
+
+      <section>
+        <h2>Preço</h2>
+        <p><strong class="realce-p">R$ 4.999</strong> ou 12xR$ 416,58</p>
+        <p><span class="realce-p">Desconto de 10%</span> no PIX</p>
+      </section>
+
+      <hr />
+
+      <section>
+        <div class="div-cond">
+          <h2>Condições</h2>
+          <p>Parcelamento <span class="realce-italico">sem juros</span></p>
+          <p><em class="realce-underline">Frete grátis</em></p>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Características</h2>
+        <h3>Inteligência Artificial & Smart</h3>
+        <ul>
+          <li>Alexa</li>
+          <li>Google Assistente</li>
+          <li>Game Optimizer</li>
+          <li>Configuração da família</li>
+        </ul>
+        <h3>Imagem</h3>
+        <ul>
+          <li>4K UHD</li>
+          <li>Processador XYZ</li>
+          <li>HDR</li>
+          <li>HDMI 2.0</li>
+        </ul>
+        <h3>Conexões</h3>
+        <ul>
+          <li>3 Entradas HDMI 2.0</li>
+          <li>2 Entradas USB</li>
+          <li>1 Bluetooth In/Out</li>
+          <li>1 Saída digital óptica</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
