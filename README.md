@@ -41,7 +41,7 @@ Repositório dedicado ao meu aprendizado prático em **HTML e CSS**, com foco na
 **Total de Aulas:** 414  
 **Total de Carga Horária:** ~83h25min  
 
-**Aulas Concluídas:** 49 / 414  
+**Aulas Concluídas:** 122 / 414  
 **Carga Horária Concluída:** 3h34min / 83h25min  
 
 **Progresso Atual:** ~6% do curso concluído  
