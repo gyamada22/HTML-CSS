@@ -1,0 +1,412 @@
+/* Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.21rem;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 2.76rem;
+  line-height: 1.1;
+  font-weight: 400;
+}
+li {
+  list-style: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.botao {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #f7a70c;
+  border-radius: 3rem;
+  padding: 0.65rem 5.5rem;
+  display: inline-block;
+  color: white;
+}
+
+.realce-semibold {
+  font-weight: 600;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 1.28rem 2.5rem;
+  box-shadow: 0 0.33rem 0.4rem rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+nav {
+  display: none;
+}
+
+.item-lista-cabecalho a {
+  color: #112e61;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.item-lista-cabecalho a:hover,
+.item-lista-cabecalho a:visited {
+  color: #f60;
+}
+
+.item-lista-cabecalho.filhos::after {
+  content: "\2bc6";
+}
+
+/* Seção Hero */
+.hero-botao {
+  background-image: linear-gradient(180deg, #ff645e, #ff9253);
+  border-bottom: solid 0.4rem #993c38;
+  border-right: solid 0.4rem #993c38;
+}
+
+.hero-botao:hover {
+  background-image: none;
+  background-color: white;
+  color: #ff645e;
+  border: none;
+  box-shadow: rgb(163, 163, 163);
+}
+
+.secao {
+  padding: 7.63rem 2rem;
+}
+.secao-hero {
+  background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-01.webp");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.hero-paragrafo {
+  font-size: 1.92rem;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.iframe-video {
+  aspect-ratio: 16/9;
+  width: 42rem;
+  border-radius: 2.5rem;
+}
+
+/* Seção Conteúdos Gratuitos */
+
+.box-gratuito {
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+.box-gratuito img {
+  width: 100%;
+}
+.botao-gratuito {
+  background-color: #eee;
+  border-radius: 2.5rem;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.92rem;
+  line-height: 1.3;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+  color: inherit;
+  font-weight: 400;
+  font-style: normal;
+  width: 18.5rem;
+  margin: 0.8rem 0;
+  box-sizing: border-box;
+  gap: 1.2rem;
+}
+.botao-gratuito img {
+  width: 2.2rem;
+  margin-right: 0.5rem;
+  height: auto;
+}
+
+.botao-gratuito-a {
+  color: white;
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  line-height: 1.2;
+  transform: rotate(-3deg);
+}
+
+.botao-a {
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: #e7e7e7;
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1.02rem;
+}
+
+.teclas img {
+  width: 4.5rem;
+  margin-right: 0.5rem;
+}
+.secao-gratuito {
+  background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  back
+}
+.gratuito-realce {
+  color: #7a40be;
+  font-weight: 600;
+}
+
+.gratuito-h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.gratuito-h2 {
+  font-size: 2.76rem;
+  font-weight: 400;
+}
+
+.gratuito-link-lista {
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+
+/* Seção Diferenciais */
+.empresas-img img{
+  width: 7rem;
+}
+.caixa-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50% -50%;
+  background-color: #ffaf00;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 1.5rem;
+}
+.caixa-diferenciais {
+  position: relative;
+  background-color: white;
+  border-radius: 6rem;
+  padding: 4.88rem;
+  font-size: 1.92rem;
+  line-height: 1.3;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  margin: 5rem;
+}
+.container-diferenciais {
+  background-color: white;
+  border-radius: 6rem;
+}
+.borda-esq {
+  border-left: solid 0.4rem #f7a70c;
+  padding-left: 1.5rem;
+}
+.secao-diferenciais {
+      background-color: #f4f5f7
+}
+ .caixa-cima {
+  background-image: linear-gradient(225deg, #196b9f, #1a82a7);
+  background-position: cover;
+  padding: 4.88rem;
+  border-top-right-radius: 6rem;
+  border-top-left-radius: 6rem;
+  color: white;
+} 
+.caixa-baixo {
+  padding: 4.88rem;
+}
+
+.diferenciais-p {
+  font-size: 1.9rem;
+}
+/* .diferenciais-h2 {
+  font-size: 2.76rem;
+  line-height: 1.1;
+} */
+.diferenciais-h3 {
+  color: #005e88;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.diferenciais-h3-empresas {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.diferenciais-h3-empresas a {
+  color: #005e88;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Seção O que falam */
+.secao-falam {
+  background-image: url("https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+}
+.titulo-falam {
+  color: white;
+  font-size: 2.76rem;
+}
+.botao-falam {
+  background-image: linear-gradient(180deg, #196c9f, #1a80a7);
+}
+.bot-falam {
+  position: absolute;
+  top: 50%;
+}
+
+.botao-1 {
+  left: 0;
+  transform: translate(-150%, -60%);
+}
+
+.botao-2 {
+  right: 0;
+  transform: translate(160%, -60%);
+}
+
+.falam-bloco {
+  display: inline-flex;
+  position: relative;
+}
+.img-falam-1 {
+  background-image: url("https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 3rem;
+  width: 32rem;
+  height: 18rem;
+}
+.img-falam-2 {
+  background-image: url("https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 3rem;
+  width: 32rem;
+  height: 18rem;
+}
+.img-falam-3 {
+  background-image: url("https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 3rem;
+  width: 32rem;
+  height: 18rem;
+}
+/* Seção Midia */
+.secao-midia {
+  background-image: url("https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.midia-img {`
+  display:inline
+}
+
+/* Seção Blog */
+
+
+.blog-postadoem {
+  font-size: 1.5rem;
+}
+
+.blog-postadoem a {
+  font-weight: 600;
+  color: #f7a70c;
+  text-decoration: none;
+}
+
+.blog-titulopost {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-descricaopost {
+  font-size: 1.7rem;
+}
+
+/* Seção Como ajudar */
+
+/* .comoajudar-realce {
+  font-weight: 600;
+} */
+
+.comoajudar-lista,
+.comoajudar-paragrafo {
+  font-size: 1.9rem;
+}
+
+.comoajudar-lista a,
+.comoajudar-paragrafo a {
+  color: #008ff7;
+  font-weight: 600;
+}
+
+.comoajudar-paragrafo b {
+  font-weight: 600;
+}
+
+/* Rodapé */
+
+.rodape-titulo {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.rodape-subtitulo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.rodape-seg-subtitulo {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.rodape-link {
+  color: #1a77a4;
+}
